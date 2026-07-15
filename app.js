@@ -6,7 +6,7 @@
 // 3. Attention : ce site est statique (GitHub Pages), donc cette clé
 //    est visible dans le code. C'est normal/acceptable pour une clé
 //    gratuite à usage limité, mais ne mets jamais une clé payante ici.
-const API_KEY = 'COLLE_TA_CLE_API_ICI';
+const API_KEY = '73cdfe0d81144e54b69d9269df96f301';
 const API_BASE = 'https://api.football-data.org/v4';
 const COMPETITION = 'WC'; // Code de la Coupe du Monde FIFA
 
