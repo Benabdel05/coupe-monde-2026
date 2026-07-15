@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupe du Monde 2026 - Matchs en Direct</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">🏆 CM 2026</div>
+            <nav>
+                <a href="#matchs" class="active">Matchs</a>
+                <a href="#calendrier">Calendrier</a>
+                <a href="#groupes">Groupes</a>
+                <a href="#classement">Classement</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Coupe du Monde 2026</h1>
+                <p>USA - Canada - Mexique | 11 Juin - 19 Juillet 2026</p>
+                <div class="countdown" id="countdown">
+                    <div><span id="days">00</span><small>Jours</small></div>
+                    <div><span id="hours">00</span><small>Heures</small></div>
+                    <div><span id="minutes">00</span><small>Minutes</small></div>
+                    <div><span id="seconds">00</span><small>Secondes</small></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Matchs du Jour -->
+        <section id="matchs" class="section">
+            <div class="container">
+                <h2>⚽ Matchs du Jour</h2>
+                <div class="match-grid" id="today-matches">
+                    <!-- Généré par JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Calendrier -->
+        <section id="calendrier" class="section">
+            <div class="container">
+                <h2>📅 Calendrier Complet</h2>
+                <div class="calendar-filters">
+                    <button class="filter-btn active" data-phase="all">Tous</button>
+                    <button class="filter-btn" data-phase="group">Phase de Groupes</button>
+                    <button class="filter-btn" data-phase="16">8èmes</button>
+                    <button class="filter-btn" data-phase="8">Quarts</button>
+                    <button class="filter-btn" data-phase="4">Demies</button>
+                    <button class="filter-btn" data-phase="final">Finale</button>
+                </div>
+                <div class="matches-list" id="all-matches">
+                    <!-- Généré par JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Groupes -->
+        <section id="groupes" class="section">
+            <div class="container">
+                <h2>👥 Groupes</h2>
+                <div class="groups-grid" id="groups-container">
+                    <!-- Généré par JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Classement -->
+        <section id="classement" class="section">
+            <div class="container">
+                <h2>🏅 Meilleurs Buteurs</h2>
+                <div class="scorers-table" id="scorers">
+                    <!-- Généré par JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Coupe du Monde 2026 - Projet non officiel | Hébergé sur GitHub Pages</p>
+            <p>Les données sont fournies à titre indicatif</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
